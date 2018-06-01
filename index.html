@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <link rel="stylesheet" type="text/css" href="main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Roboto" rel="stylesheet">
+  <title>Brujula JS</title>
+</head>
+
+<body>
+<form>
+<h1>Item List</h1>
+  <input type="text" id="input" placeholder="" onfocus="this.value=''" length="20" requiered='0' >
+    <button type="button" class="adding" name="add" onclick="newItem()">+</button>
+    <button type="button" class="deleting"name="delete" onclick="seaknDestoy()" > - </button>
+  <br>
+  <select multiple id="list" size ="6"></select>
+  <p>Remmember you can delete by Double Click.</p>
+  <p>Also you can select different items and press the " - " button to delete.</p>
+</form>
+
+</body>
+
+  <script src="main.js"></script>
+</html>
